@@ -26,4 +26,4 @@ You can publish your work on Github so the world can see it. Run this command:
 git push origin master:gh-pages
 ```
 
-my repository is [https://github.com/gamecmt/sike-css0to1-startkit](https://github.com/gamecmt/sike-css0to1-startkit), the page would be accessible at [http://gamecmt.github.io/sike-css0to1-startkit/](http://gamecmt.github.io/sike-css0to1-startkit/).
+my repository is [https://github.com/gamecmt/sike-css0to1-startkit](https://github.com/gamecmt/sike-css0to1-startkit), the page would be accessible at [http://gamecmt.github.io/sike-css0to1-profile/](http://gamecmt.github.io/sike-css0to1-profile/).
