@@ -1,3 +1,10 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
 body{
 	font-family: 'Open Sans', 'helvetica', arial, sans-serif;
 	font-weight: 300;
@@ -71,11 +78,12 @@ h1{
 }
 
 .info-section{
+	text-align: center;
 	background-color: #fff;
 	padding: 30px 60px;
 }
 
-.info-section header h2{
+.info-section header h2{	
 	font-size: 28px;
 	text-transform: uppercase;
 	letter-spacing: 3px;	
@@ -95,7 +103,6 @@ h1{
 }
 
 .whatido{
-	text-align: center;
 	list-style: none;
 	padding: 1px;
 	margin: 0;
@@ -131,3 +138,37 @@ h1{
 	padding-top: 90px; 
 }
 
+.education-experience__list{
+	list-style: none;
+}
+
+.education-experience ul li img{
+	float: left;
+	width: 180px;
+}
+
+.education-experience__list__description{
+	text-align: left;
+	padding-left: 20px;
+	height: 230px;
+	overflow: hidden;
+}
+
+.photos__list{
+	list-style: none;
+}
+
+.photos ul li{
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.photos ul li img{
+	width: 100%;
+	display: block;
+}
+
+.get-in-touch__list{
+	list-style: none;
+}	
