@@ -165,10 +165,50 @@ h1{
 }
 
 .photos ul li img{
-	width: 100%;
-	display: block;
+	width: 100%;	
 }
 
 .get-in-touch__list{
 	list-style: none;
-}	
+}
+
+.get-in-touch ul li{
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.contact input, .contact textarea{
+	border:1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 8px;
+}
+
+.contact button{
+	border: none;
+	border-radius: 9999px;
+
+	background: #ffd524;
+
+	cursor: pointer;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	box-shadow: 0 3px 0 #daae1d;
+	width: 100%;
+}
+
+.contact form{
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.contact form label{
+	position: absolute;
+	left: -100%;
+	width: 100%;
+	text-align: right;
+	padding-right: 10px;
+}
